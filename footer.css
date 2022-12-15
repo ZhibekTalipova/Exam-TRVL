@@ -1,0 +1,52 @@
+footer {
+    width: 100%;
+    height: 89px;
+    background: #000000;
+    padding: 32px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .icons {
+    width: 114px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .icons>a>svg{
+    width: 21px;
+    height: 21px;
+  }
+  .icons>a:hover path{
+    fill: #D28888;
+  }
+  .icons>a:active path{
+    fill: #AF2A2A;
+  
+  }
+  
+  .logo-footer {
+    width: 90px;
+    height: 20px;
+  }
+  
+  .contact {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+  a:hover {
+    color: #D28888;
+  }
+  @media screen and (max-width:679px) {
+    footer{
+      height: 213px;
+      flex-direction: column;
+    }
+    
+  }
